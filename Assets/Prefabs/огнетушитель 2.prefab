@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9099485990591523695}
   - component: {fileID: 4868156801322200158}
   - component: {fileID: 5082642985719341786}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u0426\u0438\u043B\u0438\u043D\u0434\u0440.001"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 5544471802036203891}
   - component: {fileID: 328777704020002231}
   - component: {fileID: 6539342229555566708}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u0426\u0438\u043B\u0438\u043D\u0434\u0440.008"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 6222163081492066199}
   - component: {fileID: 4344761111577350013}
   - component: {fileID: 3434363423146703167}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u0426\u0438\u043B\u0438\u043D\u0434\u0440.007"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 916838217007978426}
   - component: {fileID: 2618327156962341135}
   - component: {fileID: 5253406069085973375}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u0426\u0438\u043B\u0438\u043D\u0434\u0440.002"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 3905436811617932120}
   - component: {fileID: 8381299656517125658}
   - component: {fileID: 6121633840856617961}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u0426\u0438\u043B\u0438\u043D\u0434\u0440.004"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 3021142042065613874}
   - component: {fileID: 3461084876473465359}
   - component: {fileID: 4937830188064075490}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -510,7 +510,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0
@@ -689,7 +689,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.1
+      scalar: 0.2
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -1005,13 +1005,13 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    maxNumParticles: 5000
     size3D: 0
     rotation3D: 0
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 0.2
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -1270,7 +1270,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 100
+      scalar: 300
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -5220,7 +5220,7 @@ GameObject:
   - component: {fileID: 2572916940270444818}
   - component: {fileID: 3128969671514217218}
   - component: {fileID: 3895741422348709663}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u0426\u0438\u043B\u0438\u043D\u0434\u0440.006"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5304,7 +5304,7 @@ GameObject:
   - component: {fileID: 6844906302721278231}
   - component: {fileID: 6844906302721278228}
   - component: {fileID: 7698006667448054715}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u043E\u0433\u043D\u0435\u0442\u0443\u0448\u0438\u0442\u0435\u043B\u044C
     2"
   m_TagString: Untagged
@@ -5552,7 +5552,7 @@ GameObject:
   - component: {fileID: 3283935502552992410}
   - component: {fileID: 2544908215657500448}
   - component: {fileID: 1538518776086767006}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u0426\u0438\u043B\u0438\u043D\u0434\u0440.003"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5632,7 +5632,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6844906303926995376}
   - component: {fileID: 6844906303926995377}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u0420\u0443\u0447\u043A\u0430 (collider)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5647,7 +5647,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6844906303926995383}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0.44, z: 0.02}
+  m_LocalPosition: {x: 0, y: 0.52, z: 0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6446699977832244739}
@@ -5677,7 +5677,7 @@ GameObject:
   - component: {fileID: 2140863150870382669}
   - component: {fileID: 5085017574569960536}
   - component: {fileID: 1407423832266271349}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u0426\u0438\u043B\u0438\u043D\u0434\u0440.005"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
