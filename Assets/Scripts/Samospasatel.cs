@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Samospasatel : MonoBehaviour
 {
-    private Camera
     // Start is called before the first frame update
     void Start()
     {
